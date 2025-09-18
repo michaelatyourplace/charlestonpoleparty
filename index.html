@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charleston Pole Parties | The Ultimate Night Out!</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS for a Fun, Energetic Vibe -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa; /* Light Grey background */
+            color: #212529; /* Dark text */
+        }
+        .navbar-custom {
+            background-color: rgba(40, 40, 40, 0.8);
+            backdrop-filter: blur(10px);
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1920x1080/212529/dc3545?text=SPIN');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0;
+        }
+        .hero h1 {
+            font-weight: 900;
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+        .highlight-red {
+            color: #dc3545; /* Bootstrap Red */
+        }
+        .btn-primary {
+            background-color: #dc3545;
+            border-color: #dc3545;
+            padding: 12px 30px;
+            font-weight: 700;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+            transform: scale(1.05);
+        }
+        .section-bg-white {
+            background-color: #fff;
+            border-radius: 15px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: #212529;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(220, 53, 69, 0.15);
+        }
+        .card-price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #dc3545;
+        }
+        .blockquote {
+            background-color: #dc3545;
+            color: #fff;
+            border-left: none;
+            padding: 2rem;
+            border-radius: 15px;
+        }
+        .blockquote p {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .blockquote-footer {
+            color: #f8f9fa;
+            font-weight: bold;
+        }
+        .icon-lg {
+            font-size: 4rem;
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Pole Parties</a>
+            <a href="#pricing" class="btn btn-primary d-none d-lg-inline-block">Book Your Party</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center text-white">
+        <div class="container">
+            <h1 class="display-3 text-uppercase">Unleash Your <span class="highlight-red">Inner Star</span></h1>
+            <p class="lead my-4">The ultimate bachelorette, birthday, or girls' night out experience in Charleston. <br> No experience needed—just bring the good vibes!</p>
+            <a href="#pricing" class="btn btn-primary btn-lg">Let's Get This Party Started!</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+
+        <!-- Row 1: The Fun Factor -->
+        <section class="py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 text-center">
+                    <i class="bi bi-stars icon-lg"></i>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">More Than a Dance Class, It's a <span class="highlight-red">Vibe</span></h2>
+                    <p class="lead">Forget boring nights out. A pole party is where you and your crew can let loose, laugh until it hurts, and learn some seriously cool moves in a private, supportive, and judgment-free zone. It's a full-body workout disguised as the most fun you'll have all year. You'll leave feeling empowered, confident, and with amazing memories (and photos!).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 2: Pricing -->
+        <section id="pricing" class="py-5 my-4 section-bg-white">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Party Packages That Slay</h2>
+                <p class="text-muted">Choose your adventure. All parties are 100% private for you and your guests.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center h-100 p-4">
+                        <h3 class="fw-bold">The Sip & Spin</h3>
+                        <p class="card-price">$45<span class="fs-6 text-muted">/person</span></p>
+                        <ul class="list-unstyled my-4">
+                            <li>60 Minute Private Party</li>
+                            <li>Beginner-Friendly Spins</li>
+                            <li>Fun Warm-up & Cooldown</li>
+                            <li>Minimum 5 Guests</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary mt-auto">Book The Sip & Spin</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center h-100 p-4 border border-2 border-primary">
+                         <h3 class="fw-bold"><span class="highlight-red">The Main Event</span></h3>
+                        <p class="card-price">$60<span class="fs-6 text-muted">/person</span></p>
+                        <ul class="list-unstyled my-4">
+                            <li>90 Minute Private Party</li>
+                            <li>Learn a Mini-Routine</li>
+                            <li>Group Photos & Videos</li>
+                            <li>Minimum 5 Guests</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary mt-auto">Book The Main Event</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center h-100 p-4">
+                        <h3 class="fw-bold">The VIP Experience</h3>
+                        <p class="card-price">$75<span class="fs-6 text-muted">/person</span></p>
+                        <ul class="list-unstyled my-4">
+                            <li>2 Hour Private Party</li>
+                            <li>Full Choreographed Routine</li>
+                            <li>Complimentary Bubbly</li>
+                            <li>Minimum 6 Guests</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary mt-auto">Book The VIP</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 3: Who & Why -->
+        <section class="py-5">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+                <div class="col-lg-6 text-center">
+                     <i class="bi bi-person-heart icon-lg"></i>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">This is For <span class="highlight-red">Everyone</span></h2>
+                    <p class="lead">You don't need any dance experience, muscles, or coordination to start. Seriously! Our parties are for all ages (18+), all genders, all body types, and all fitness levels. People join us to celebrate milestones, to try something new and exciting, to build confidence, or just to have a unique and empowering experience with their friends. It's about discovering the amazing things your body can do!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 4: Charleston Scene & The "Stripper" Connection -->
+        <section class="py-5">
+             <div class="row align-items-center g-5">
+                <div class="col-lg-6 text-center">
+                    <i class="bi bi-moon-stars-fill icon-lg"></i>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">The Charleston Vibe & The <span class="highlight-red">Art of the Tease</span></h2>
+                    <p class="lead">Let's be real—Charleston has a vibrant, spicy nightlife. While our pole parties are all about fitness, fun, and empowerment, the art form itself shares roots with the dazzling world of professional stripping. It's all about owning your power, celebrating your body, and mastering the incredible athleticism and grace of the pole. Think of it as accessing that same rockstar confidence and performance energy, just in a t-shirt and yoga pants!</p>
+                </div>
+            </div>
+        </section>
+
+            <!-- Teamwork & Body Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5 text-center">
+                    <i class="bi bi-people-fill icon-lg"></i>
+                    <h2 class="display-6 fw-bold mt-3">Build Your Team, <br><span class="highlight-red">Build Your Strength</span></h2>
+                </div>
+                <div class="col-lg-7">
+                    <p class="lead">Beyond the spins and laughter, a pole party offers a surprisingly powerful platform for team building and a transformative physical experience. It’s an opportunity to connect with your colleagues or friends on a whole new level, fostering a unique sense of camaraderie in an environment buzzing with positive energy. When you learn a new skill together, you create a shared memory and a foundation of mutual support. In our studio, hierarchies melt away; everyone starts as a beginner, and you'll find yourselves cheering for each other's successes, offering encouragement through the tricky parts, and celebrating every single achievement. This dynamic builds trust and reinforces positive communication, creating a stronger, more cohesive team spirit that extends far beyond the studio walls.</p>
+                    <p class="lead mt-3">From a physical standpoint, pole dancing is a comprehensive, full-body workout that delivers incredible results. It’s a dynamic fusion of strength training, cardio, and flexibility. You’ll engage muscles you never knew you had, building exceptional upper body and core strength by lifting and holding your own body weight. As you flow through combinations and learn routines, you’ll elevate your heart rate, boosting your cardiovascular endurance. Furthermore, the fluid movements inherently improve your flexibility, coordination, and overall body awareness. The confidence you gain from mastering a new move is unparalleled, leaving you feeling physically stronger, mentally empowered, and absolutely radiant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Row 5: A Global Phenomenon -->
+        <section class="py-5 my-4 section-bg-white">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+                <div class="col-lg-6 text-center">
+                    <i class="bi bi-globe-americas icon-lg"></i>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">From Circus Tents to Fitness Studios</h2>
+                    <p class="lead">Pole dance has a rich history evolving from circus arts into a global fitness phenomenon and a recognized sport. It's a comprehensive workout that builds upper body and core strength, improves flexibility, and boosts cardiovascular health—all while you're having an absolute blast. It's an art form celebrated worldwide for its power and beauty. <a href="https://en.wikipedia.org/wiki/Pole_dance" target="_blank" class="fw-bold">Learn more on Wikipedia</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 6: The Quote -->
+        <section class="py-5">
+            <div class="container">
+                <figure class="text-center">
+                    <blockquote class="blockquote p-5">
+                        <p>"I spend my nights on stage in Charleston, and let me tell you—the strength, the confidence, the moves you learn here? Pole dancing and these workshops are the closest thing to the real thrill of working as a stripper. It's pure, athletic, empowering fun!"</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mt-3 fs-5">
+                        <a href="https://michaelatyourplace.com" class="link-danger text-decoration-none">Michael At Your Place</a>, <cite class="text-black" title="Source Title">Charleston Entertainer & Guest Instructor</cite>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 text-white text-center" style="background-color: #343a40;">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Pole Parties | Spin with Us in the Holy City</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
